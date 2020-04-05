@@ -23,6 +23,9 @@
  * Input: [7,6,4,3,1]
  * Output: 0
  * Explanation: In this case, no transaction is done, i.e. max profit = 0.
+ *
+ * Runtime: 4 ms
+ * Memory Usage: 6.4 MB
  */
 
 int maxProfit(int* prices, int pricesSize){
@@ -44,6 +47,8 @@ int maxProfit(int* prices, int pricesSize){
     }
     return profit;
     // too slow code below
+    // Runtime: 8 ms
+    // Memory Usage: 6.3 MB
     // while (--pricesSize > 0)
     // {
     //     if (prices[pricesSize] > prices[pricesSize - 1])
