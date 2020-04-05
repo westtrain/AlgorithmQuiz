@@ -8,6 +8,9 @@
  * Follow up:
  * If you have figured out the O(n) solution, try coding another solution using the divide and conquer approach, which is more subtle.
  * Also you can use Kadane’s Algorithm for solve it.
+ *
+ * Runtime: 4 ms
+ * Memory Usage: 6 MB
  */
 
 int maxSubArray(int* nums, int numsSizei)
