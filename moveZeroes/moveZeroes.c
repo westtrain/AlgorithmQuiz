@@ -16,6 +16,9 @@
  * Hint #2
  * A two-pointer approach could be helpful here. The idea would be to have one pointer for iterating 
  * the array and another pointer that just works on the non-zero elements of the array.
+ * 
+ * Runtime: 12 ms
+ * Memory Usage: 7.5 MB
  */
 
 void moveZeroes(int* nums, int numsSize){
