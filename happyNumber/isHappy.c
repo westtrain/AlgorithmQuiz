@@ -37,3 +37,38 @@
     return n == 1;
 }
 
+/*
+ * sample 0 ms Submission from leetcode.
+ *
+ int squareSum(int n)
+{
+    int sum = 0;
+    while(n)
+    {
+        sum  += (n%10) * (n%10);
+        n /= 10;
+    }
+
+    return sum;
+}
+
+bool isHappy(int n){
+    int slow, fast;
+
+    //    initialize slow and fast by n
+    slow = fast = n;
+    do
+    {
+        //    move slow number by one iteration
+        slow = squareSum(slow);
+
+        //    move fast number by two iteration
+        fast = squareSum(squareSum(fast));
+
+    }
+    while (slow != fast);
+
+    //    if both number meet at 1, then return true
+    return (slow == 1);
+}
+*/
