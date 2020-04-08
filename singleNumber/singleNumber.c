@@ -39,3 +39,15 @@
     }
     return res;
 }
+
+/*
+ * sample 0 ms from leetcode.
+ * 
+ int singleNumber(int* nums, int numsSize){
+    int sum=0, i=0;
+    for (i=0; i<numsSize; i++){
+        sum ^= nums[i];
+    }
+    return sum;
+}
+*/
