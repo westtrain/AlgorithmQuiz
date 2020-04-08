@@ -30,3 +30,20 @@ int maxSubArray(int* nums, int numsSizei)
     }
     return largeSum;
 }
+
+/*
+ * sample 0 ms submission from leetcode.
+ *
+#define MAX(x, y) (((x) > (y)) ? (x) : (y))
+#define MIN(x, y) (((x) < (y)) ? (x) : (y))
+
+int maxSubArray(int* nums, int numsSize){
+    int max_term_aqui = nums[0];
+    int max_ate_agr = nums[0];
+    for(int i = 1; i < numsSize; i ++){
+        max_term_aqui = MAX(nums[i], max_term_aqui + nums[i]);
+        max_ate_agr = MAX(max_ate_agr, max_term_aqui);
+    }
+    return max_ate_agr;
+}
+*/
