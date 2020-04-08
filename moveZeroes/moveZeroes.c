@@ -39,3 +39,20 @@ void moveZeroes(int* nums, int numsSize){
         j++;
     }
 }
+
+/*
+ * sample 4 ms submission from leetcode.
+ * 
+void moveZeroes(int* nums, int numsSize){
+    int t,l=0;
+    for(int i=0;i<numsSize;i++){
+        
+        if(nums[i]!=0){
+            t = nums[l];
+            nums[l] = nums[i];
+            nums[i] = t;
+            l++;
+        }
+    }   
+}
+*/
