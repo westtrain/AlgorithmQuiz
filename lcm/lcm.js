@@ -1,5 +1,5 @@
 function solution(arr) {
-    var answer = 0;
+    let answer = 0;
     const gcd = (a, b) => a % b === 0 ? b : gcd(b, a % b);
     const lcm = (a, b) => a * b / gcd(a, b);
     let idx = 1;

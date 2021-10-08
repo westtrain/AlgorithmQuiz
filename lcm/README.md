@@ -9,3 +9,4 @@ arr의 원소는 100 이하인 자연수입니다.
 arr	        result
 [2,6,8,14]	168
 [1,2,3]	    6
+- 출처:  Programers.co.kr
